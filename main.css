@@ -2,9 +2,7 @@ html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.container {
-    margin: 0 30%;
-}
+
 
 header {
     text-align: center;
@@ -12,56 +10,38 @@ header {
 }
 footer{
     text-align: center;
-    background-color: rgb(223, 92, 118);
+    background-color: rgb(235, 156, 172);
 }
 
-.label {
-    font-size: 30px;
-}
+
 
 
 input {
     height: 30px;
-    border: 1px rgb(14, 13, 13) solid;
+    border: 1px rgb(50, 4, 253) solid;
     border-radius: 10px;
 }
 
-#grandTotalInfo {
+#Total {
     font-size: 24px;
     color: rgb(47, 172, 9);
 }
 
-#calculateBTN {
+#calc-Button {
     display: -webkit-inline-box;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
     padding: 20px;
     font-size: 25px;
     border: 1px rgb(25, 10, 233) solid;
     border-radius: 40px;
 }
 
-#calculateBTN:hover {
+#calc-Button {
     cursor: pointer;
     background-color: rgb(232, 128, 241);
 }
 
-.pullRight {
-    float: right;
-}
 
-#darkModeBTN {
-    display: block;
-    text-align: left;
-    padding: 15px;
-    font-size: 25px;
-    border: 1px rgb(173, 173, 173) solid;
-    border-radius: 40px;
-    position: absolute;
-    left: 5%;
-    bottom: 5%;
-}
 
-#darkModeBTN:hover {
-    cursor: pointer;
-}
+
