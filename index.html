@@ -1,47 +1,46 @@
 
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>iosapp</title>
-        <link rel="stylesheet" href="./main.css">
-        <link id="darkModeStyleSheet" rel="stylesheet" href="./styleDark.css">
-        <script src="./main.js"></script>
-    </head>
-    <body onload="toggleDarkMode()">
-        <div class="container">
-            <header>
-                <h1>Maitre D</h1>
-            </header>
-            <hr>
-            <hr>
-            <main>                
-                <span class="label">Total:</span>
-                <input type="number" class="pullRight" id="totalInput" style="width: 80%;" onchange="calculate()">
-                <br>
-                <span id="errorMSG"></span>
-                <br>
-                <span class="label">Tip:</span>
-                <span id="tipInfo"></span>
-                <span class="pullRight">
-                    <span class="label">Rate:</span>
-                    <input type="number" id="rateInput" onchange="calculate()">
-                </span>
-                <br><br>
-                <span class="label">Tax:</span>
-                <span id="taxInfo"></span>
-                <br><br>
-                <span class="label">Grand Total:</span>
-                <span id="grandTotalInfo"></span>
-                <br>
-                <div id="calculateBTN" onmousedown="calculate()">Calculate</div>             
-            </main>
-            <hr>
-            <hr>
-            
-            <footer>
-                <p>&copy; SindhuRaniGoli 2020</p>
-            </footer>
-        </div>
-    </body>
+<html>
+
+<head>
+    <title>iosapp</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<style>
+</style>
+
+<body>
+    <h1>Maitre D</h1>
+    <hr><hr>
+    <main>
+        <br>        
+        <div>
+            <div> <label>Total: </label>
+                <input id="total-field" type="text" placeholder="input total" value=""></div>
+            <br>
+            <div><label>Rate: </label>
+                <input id="rate-field" type="field-rate" placeholder="input rate" value=""></div>
+            <br>
+            <div><label>Tip: </label><span id="Tip">$0.00</span></div>
+            <br>
+
+            <div><label>Tax: <span id="Tax">$0.00</span></label></div>
+            <br>
+
+            <div><label>Grand Total: <span id="Total">$0.00</span></label></div>
+            <br>
+
+            <button id="calc-Button">Calculate</button>
+
+            <br>
+            <br>
+    </main>
+    <script src="main.js"></script>
+    <hr><hr>
+    <footer>
+        <p>&copy; SindhuRaniGoli 2020</p>
+    </footer>
+    </div>
+</body>
+
 </html>
