@@ -9,12 +9,16 @@ header {
     background-color: rgb(179, 181, 185);
 }
 footer{
-    text-align: center;
-    background-color: rgb(235, 156, 172);
+
+    
+color: blue;
+    
+    
+      
 }
-
-
-
+body{
+    text-align: center;
+}
 
 input {
     height: 30px;
